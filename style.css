@@ -1,0 +1,312 @@
+body {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+    max-width: 1440px;
+    min-height: 100vh;
+
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+
+    min-width: 1150px;
+    max-width: 1150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 700;
+
+    margin: 0 auto;
+}
+
+h2, h3, h3, h4, h5 ,h6 {
+    font-weight: 400;
+
+    margin: 0 auto;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 18px;
+
+    border-radius: 100px;
+    box-sizing: border-box;
+
+    padding: 12px 30px;
+}
+
+header a {
+    color: rgba(0, 0, 0, 1);
+
+    font-size: 16px;
+}
+
+.header .container {
+    margin: 30px auto;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+
+    gap: 22px;
+}
+
+.header .btn {
+    padding: 14px 26px;
+}
+
+.btn__login {
+    border: 1px solid #000;
+
+    width: 100px;
+    height: 50px;
+}
+
+.btn__talk {
+    width: 200px;
+    height: 50px;
+
+    color: rgba(255, 255, 255, 1);
+
+    background: rgba(0, 0, 0, 1);
+}
+
+.welcome .container {
+    display: flex;
+    flex-direction: row-reverse;
+
+    margin: 60px auto 0;
+
+    gap: 48px;
+}
+
+.welcome__img {
+    width: 650px;
+    height: 500px;
+
+    margin-top: -30px;
+}
+
+.welcome__text {
+    width: 500px; 
+}
+
+.welcome__title {
+    font-size: 68px;
+    line-height: 82px;
+}
+
+.welcome__desc {
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-top: 26px;
+}
+
+.welcome__subtitle {
+    font-weight: 700;
+
+    margin: 80px 0 44px ;
+}
+
+.welcome__btn {
+    width: 100px;
+    height: 26px;
+
+    font-size: 22px;
+
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+
+    padding: 18px 30px;
+    
+}
+
+.sale .container {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 200px;
+
+    gap: 100px;
+}
+
+.sale__img {
+    width: 480px;
+    height: 280px;
+}
+
+.sale__text {
+    width: 500px;
+    height: 346px;
+
+}
+
+.sale__title {
+    font-size: 56px;
+    line-height: 58px;
+}
+
+.sale__desc {
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-top: 30px;
+}
+
+.switch {
+    padding-bottom: 126px;
+}
+.switch .container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 200px;
+}
+
+.switch__title {
+    font-weight: 700;
+    font-size: 58px;
+}
+
+.switch__content {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1036px;
+
+    gap: 54px;
+
+    margin-top: 62px;
+}
+
+.switch__text {
+    max-width: 314px;
+    max-height: 330px;
+}
+
+.switch img {
+    width: 200px;
+    height: 150px;
+}
+
+.switch h1 {
+    font-size: 28px;
+
+    margin-top: 24px;
+}
+
+.switch p {
+    max-width: 308px;
+
+    line-height: 24px;
+
+    margin-top: 10px;
+}
+
+.switch__btn {
+    width: 240px;
+    height: 50px;
+
+    background: rgba(247, 178, 183, 1);
+
+    color: #000;
+
+    margin-top: 50px;
+}
+
+.plans {
+    background-color: rgba(253, 236, 237, 1);;
+
+    padding-top: 56px;
+}
+
+.plans__title {
+    font-size: 58px;
+    
+    padding-top: 30px;
+}
+
+.plans__content {
+    display: flex;
+    flex-direction: row;
+
+    padding: 80px 115px 72px 0;
+    
+    gap: 54px;
+}
+
+.palns__img {
+    width: 310px;
+    height: 174px;
+}
+
+.plans__title-text {
+    font-size: 28px;
+
+    margin-top: 24px;
+}
+
+.plans__desc {
+    line-height: 24px;
+
+    margin-top: 10px;
+
+    max-width: 304px;
+}
+
+.companies .container {
+    display: flex;
+    flex-direction: row;
+
+    width: 1035px;
+    height: 450px;
+
+    gap: 100px;
+}
+
+.companies__title {
+    width: 236px;
+    height: 72px;
+
+    font-size: 28px;
+    line-height: 36px;
+
+    margin-top: 92px;
+}
+
+.companies__content {
+    width: 700px;
+    max-height: 360px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 72px 0 18px ;
+}
