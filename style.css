@@ -110,21 +110,15 @@ header a {
 .welcome .container {
     display: flex;
     flex-direction: row-reverse;
-
-    margin: 60px 70px 0 auto;
+    
+    margin-top: 60px;
 
     gap: 48px;
 }
 
 .welcome__img {
-    width: 650px;
-    height: 500px;
-
-    margin-top: -30px;
-}
-
-.welcome__text {
-    min-width: 500px; 
+    width: 550px;
+    height: 400px;
 }
 
 .welcome__title {
@@ -532,8 +526,8 @@ footer {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
-        gap: 40px
+        
+        gap: 40px;
     }
 
     .footer__service-text {
